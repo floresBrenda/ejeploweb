@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(96, 96, 110);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+nav{
+   padding: 10px ;
+   position: fixed;
+   width: 100%;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 8px;
+}
+li{
+    display:inline;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid wheat;
+}
+.horizontal{
+    display: flex;
+    margin: 40px;
+    width: 800px;
+}
+.puente{
+    background-color:  rgb(230, 221, 221);
+    height: 430px;
+    margin: 10px;
+    align-content: stretch;
+}
+.puente>h3{
+    text-align: center;
+    color:rgb(65, 177, 65);
+    font-size: 20px;
+    padding: 8px;
+}
+.texto{
+    text-align: center;
+    color: rgb(95, 92, 92);
+}
+.boton{
+    text-decoration: none;
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.sushi{
+    background-color:  rgb(230, 221, 221);
+    height: 430px;
+    margin: 10px;
+    align-content: stretch;
+}
+.sushi>h3{
+    text-align: center;
+    color:rgb(56, 32, 195);
+    font-size: 20px;
+    padding: 8px;
+}
+.boton2{
+    text-decoration: none;
+    background-color:rgb(56, 32, 195);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.arbol{
+    background-color:  rgb(230, 221, 221);
+    height: 430px;
+    margin: 10px;
+    align-content: stretch;
+}
+.arbol>h3{
+    text-align: center;
+    color:rgb(238, 57, 12);
+    font-size: 20px;
+    padding: 8px;
+}
+.boton3{
+    text-decoration: none;
+    background-color:rgb(238, 57, 12);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.horizontal2{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.dia{
+    width: 50%;
+    background-color:  rgb(230, 221, 221);
+    margin: 10px;
+    color: rgb(114, 108, 108);
+}
+.dia>h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+.dia>p{
+    text-align: center;
+    margin: 5px;
+}
+.noche{
+    width: 50%;
+    background-color:  rgb(230, 221, 221);
+    margin: 10px;
+    color: rgb(88, 86, 86);
+}
+.noche>h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+.noche>p{
+    text-align: center;
+}
+.soloimagen{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.imagenes{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.imagen1{
+   background-color:rgb(230, 221, 221);
+   margin: 10px;
+   text-align: center;
+   align-items: stretch;
+}
+.imagen2{
+    background-color:rgb(230, 221, 221);
+    margin: 10px;
+    text-align: center;
+    align-items: stretch;
+}
+.imagen3{
+    background-color:rgb(230, 221, 221);
+    margin: 10px;
+    text-align: center;
+    align-items: stretch;
+}
+.imagen4{
+    background-color:rgb(230, 221, 221);
+    margin: 10px;
+    text-align: center;
+    align-items: stretch;
+}
+.textoimagen{
+    color:rgb(102, 99, 99);
+    margin: 10px;
+}
+.botonesimagen{
+    text-decoration: none;
+    background-color:honeydew;
+    border: 1px solid black;
+    padding: 5px;
+    color: rgb(17, 14, 14);
+}
+.ultimaimagen{
+    text-align: center;
+    margin: 40px;
+    background-color:rgb(230, 221, 221);
+    height: 500px;
+}
+.ultimaimagen>h3,p{
+    text-align: center;
+    color:rgb(102, 99, 99);
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.ultimaimagen>p>a{
+    text-decoration: none;
+    background-color: honeydew;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+.formulario{
+    display: flex;
+    width: 50%;
+    align-content: center;
+}
+.formulario1{
+    background-color:rgb(230, 221, 221);
+}
